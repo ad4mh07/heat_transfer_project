@@ -33,8 +33,9 @@ $$
 $$
 
 Using a finite difference approximation, each interior grid point is updated according to the average of its six neighbouring points, 
+
 $$
-T_{i,j,k} =
+T_{i,j,k} = 0
 $$
 
 The solution is obtained iteratively until convergence.
