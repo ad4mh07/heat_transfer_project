@@ -21,4 +21,4 @@
 | 33 | 8.74370 |
 | 35 | 13.66681 |
 
-!(figuers/performance_graph.png)
+!(figures/performance_graph.png)
