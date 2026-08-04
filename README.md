@@ -54,11 +54,17 @@ The solution is obtained iteratively until convergence.
 
 ## Repository structure 
   README- the README for this project
+  
   simulation- the final, tidied up iteration of this project
+  
   example- an example of 6 well-defined input functions, and 3 calls of the simulation
+  
   figures- saved figures of the example
+  
   models- a rough python script containing all major iterations of the project. The final iteration, 4, is nearly identical to the script in 'simulation.py', just a bit less polished
+  
   timing- a script containing a modified version of the simulation that measures the computational performance (speed) at different resolutions
+  
   timing_report- a short tables of results I achieved from the timing.py script
 
 ## Features
