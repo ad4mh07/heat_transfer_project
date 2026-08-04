@@ -1,3 +1,5 @@
+#Average run time (5 trials) dependent on resolution (per dimension)
+
 | Cube size (`n`) | Average runtime (s) |
 |----------------:|--------------------:|
 | 1  | 0.01543 |
@@ -18,3 +20,5 @@
 | 31 | 5.59443 |
 | 33 | 8.74370 |
 | 35 | 13.66681 |
+
+!(figuers/performance_graph.png)
