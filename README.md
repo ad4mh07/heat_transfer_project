@@ -36,7 +36,7 @@ Using a finite difference approximation, each interior grid point is updated acc
 
 $$
 T_{i,j,k}
-
+=
 \frac{
 T_{i+1,j,k}
 +
