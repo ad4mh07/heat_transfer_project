@@ -53,21 +53,23 @@ $$
 The solution is obtained iteratively until convergence.
 
 ## Repository structure 
-  README- the README for this project
 
-  requirements- a list of the required python modules 
+figures- saved figures from the example
+
+README- the README for this project
+
+example- an example of 6 well-defined input functions, and 3 calls of the simulation
+
+models- a rough python script containing all major iterations of the project, excluding the final one, which is self-contained in 'simulation.py'
+
+performance- a script containing a modified version of the simulation that measures the computational performance (speed) at different resolutions
   
-  simulation- the final, tidied up iteration of this project
+performance_report- a  table and plot of results I achieved from the 'performance.py' script
+
+requirements- a list of the required python modules 
   
-  example- an example of 6 well-defined input functions, and 3 calls of the simulation
+simulation- the final, tidied up iteration of this project
   
-  figures- saved figures of the example
-  
-  models- a rough python script containing all major iterations of the project, excluding the final one, which is self-contained in simulation.py
-  
-  timing- a script containing a modified version of the simulation that measures the computational performance (speed) at different resolutions
-  
-  timing_report- a short tables of results I achieved from the timing.py script
 
 ## Features
 
