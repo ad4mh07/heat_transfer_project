@@ -63,7 +63,7 @@ The solution is obtained iteratively until convergence.
   
   figures- saved figures of the example
   
-  models- a rough python script containing all major iterations of the project. The final iteration, 4, is nearly identical to the script in 'simulation.py', just a bit less polished
+  models- a rough python script containing all major iterations of the project, excluding the final one, which is self-contained in simulation.py
   
   timing- a script containing a modified version of the simulation that measures the computational performance (speed) at different resolutions
   
