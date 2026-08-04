@@ -54,6 +54,8 @@ The solution is obtained iteratively until convergence.
 
 ## Repository structure 
   README- the README for this project
+
+  requirements- a list of the required python modules 
   
   simulation- the final, tidied up iteration of this project
   
