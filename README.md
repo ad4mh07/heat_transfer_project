@@ -33,8 +33,8 @@ $$
 $$
 
 Using a finite difference approximation, each interior grid point is updated according to the average of its six neighbouring points,
-
 $$
+
 T_{i,j,k}
 =
 \frac{
@@ -49,7 +49,7 @@ T_{i,j-1,k}
 T_{i,j,k+1}
 +
 T_{i,j,k-1}
-}{6}.
+}{6}
 $$
 
 The solution is obtained iteratively until convergence.
