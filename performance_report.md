@@ -1,4 +1,4 @@
-#Average run time (5 trials) dependent on resolution (per dimension)
+# Average run time (5 trials) dependent on resolution (per dimension)
 
 | Cube size (`n`) | Average runtime (s) |
 |----------------:|--------------------:|
