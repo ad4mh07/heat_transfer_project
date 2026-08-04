@@ -61,8 +61,10 @@ The model computes the steady state temperature distribution inside the cube for
 Each face can be assigned an independent temperature distribution. This is a multivariable function defined over the 2 dimensional region A,
 
 $$
-A = \{(x,y)\in\mathbb{R}^2 : 0 \leq x \leq 1,\ 0 \leq y \leq 1\}
+A = \{(x,y)\in\mathbb{R}^2 : -a \leq x \leq a,\ -a \leq y \leq a\}
 $$
+
+where a is any real number.
 
 This allows investigation of energy conservation and dissipation within the system.
 
