@@ -54,15 +54,13 @@ The solution is obtained iteratively until convergence.
 
 ## Features
 
-### Solution Approximation
-The model calculates displacement and velocity over time for a given set of parameters.
+### Numerical Solution
+The model computes the steady state temperature distribution inside the cube for specified boundary conditions
 
-### Energy Analysis
-The simulation calculates:
-- Kinetic energy
-- Elastic potential energy
-- Gravitational potential energy
-- Energy lost through damping
+### Custom Boundary Conditions
+Each face can be assigned an independent temperature distribution. This is a multivariable function defined over the 2 dimensional region A, \[
+A = \{(x,y)\in\mathbb{R}^2 : 0 \leq x \leq 1,\ 0 \leq y \leq 1\}
+\]
 
 This allows investigation of energy conservation and dissipation within the system.
 
